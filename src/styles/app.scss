@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@100;300;500;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Roboto" ,sans-serif;
+}
+@import "header.scss";
+@import "home.scss";
+@import "colors";
+@import  "cart.scss";
+@import "mediaquery.scss";
+
+body{
+    background-color: $primary;
+    // color: $tertiary;
+}

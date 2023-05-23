@@ -1,0 +1,54 @@
+.home
+{
+    display: flex;
+    justify-content: center;
+    padding: 3rem;
+    flex-wrap: wrap;
+}
+
+
+.productcart
+{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    border-radius: 5px;
+    background-color: $tertiary;
+    margin: 2rem;
+    align-items: center;
+    transition: all 0.2s;
+    padding: 2rem;
+
+    img{
+      width: 100%;
+      object-fit: contain;
+      height: 100%;
+    }
+
+    h4{
+        margin: 1rem;
+    }
+
+    button{
+        background-color:$secondary;
+        width: 100%;
+        border-radius: 5px;
+        color: $tertiary;
+        transition: all 0.5s;
+        border: none;
+        cursor: pointer;
+        padding: 1rem;
+        font-weight: 500;
+        &:hover{
+            background-color: $secondarydark;
+        }
+    }
+   &:hover{
+    transform: scale(1.05);
+   }
+
+    p{
+        color: $primary;
+        font-size: 18px;
+    }
+}
